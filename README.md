@@ -7,6 +7,6 @@ considered. They will be prioritized by number of upvotes. The same goes for bug
 idea of the structure.
 
 ## Acknowledgements 
-- Eclipse is built using the Lua framework "Love2d".
-- Graphical assets were created using Canva and Aseprite. The grid is rendered by Love2d's graphics api.
-- Audio assets were all created with the ChucK programming language
+- Eclipse is built using [Love2d](https://love2d.org/).
+- Graphical assets were created using Canva and [Aseprite](https://www.aseprite.org/). The grid is rendered by Love2d's graphics api.
+- Audio assets were all created with the [ChucK programming language](https://chuck.stanford.edu/)
