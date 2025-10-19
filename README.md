@@ -11,6 +11,8 @@ The best way to contribute is to download and test pre-release versions from thi
 - Debian: sudo apt install ./eclipse_xx.yy.zz.deb
 - Archive file: love eclipse.love
 
+### About Online Multiplayer
+This feature was designed for playing over LAN (Local Area Network). As such, a player is either the host (which is always player one) or joining the hosts game. It was not designed to run on a separate server (although it is probably possible). The server code (server.lua) is built in to the game and is run when a player selects "Host Game". For remote play over the internet, it is recommended to establish a VPN tunnel using services such as WireGuard or Tailscale rather than exposing ports directly through NAT port forwarding.
 
 ## Bug Reports and Feature Requests
 Please see the existing issues for a template if you are unsure of how to structure your report/request. If you encounter a bug that is not already listed please provide as much detail as possible about your system and the bug so that I can reproduce it. The issues tab will also give you a sense of the project timeline and what is being worked on currently.
