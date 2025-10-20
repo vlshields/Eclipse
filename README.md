@@ -14,9 +14,9 @@ The best way to contribute is to download and test pre-release versions from thi
 ### About Online Multiplayer
 This feature was designed for playing over LAN (Local Area Network). As such, a player is either the host (which is always player one) or joining the hosts game. It was not designed to run on a separate server (although it is probably possible). The server code (server.lua) is built in to the game and is run when a player selects "Host Game". For remote play over the internet, it is recommended to establish a VPN tunnel using services such as WireGuard or Tailscale rather than exposing ports directly through NAT port forwarding.
 
-**Important:** An installation of the Lua Programming language is required to host a multiplayer game (the joining player does not need a lua installation). I am sorry for this inconvenience will work to fix this. However, Lua is very minimal and very easy to [install](https://www.lua.org/ftp/#source). The server is compatable with Lua5.1+. 
+**Important:** There is a dependency issue where love.sockets is conflicting with luasockets. What this means is that the host player must have luasockets installed on their system in order for server.lua to run. However, there is an experimental fix for this in pre-release v0.1.2. Please test it! 
 
-Lua is also available in many package managers:
+
 
 
 
