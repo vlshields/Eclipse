@@ -17,6 +17,10 @@ This feature was designed for playing over LAN (Local Area Network). As such, a 
 
 **Important:** There is a dependency issue where love.sockets is conflicting with luasockets. What this means is that the host player must have luasockets installed on their system in order for server.lua to run. However, there is an experimental fix for this in pre-release v0.1.2. Please test it! 
 
+### Anouncements
+
+For now I will be focusing on packaging the game for for Windows and MacOS. Linux users are encouraged to use the .love file. This may change for the actual release version, but packaging for several systems is currently too much work. The package builds may not come out at the same time for every pre releasae version because right now there are more people playing/testing the game on MacOS.
+
 
 
 
