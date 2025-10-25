@@ -8,9 +8,7 @@ The best way to contribute is to download and test pre-release versions from thi
 ### Installing and Testing the game
 - **Windows:** Download the zip file and extract. Double click the exe to run the game.
 - **MacOS:** Download and extract the zip file. The first time you launch the game you will be told that eclipse is not from the official app store. Follow the instructions in the prompt to override. 
-- **Debian:** sudo apt install ./eclipse_xx.yy.zz.deb
 - **Archive file:** love eclipse.love
-- **AppImage:** Download and make it an executable. Run with ./eclipse.AppImage
 
 ### About Online Multiplayer
 This feature was designed for playing over LAN (Local Area Network). As such, a player is either the host (which is always player one) or joining the hosts game. It was not designed to run on a separate server (although it is probably possible). The server code (server.lua) is built in to the game and is run when a player selects "Host Game". For remote play over the internet, it is recommended to establish a VPN tunnel using services such as WireGuard or Tailscale rather than exposing ports directly through NAT port forwarding.
