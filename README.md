@@ -1,4 +1,4 @@
-# Eclipse   ![eclipse logo](eclipse_logo.png)
+# WELCOME ![eclipse logo](logo_with_title.png)
 Eclipse is a two-player strategy game where Light and Shadow armies battle on a 10x10 grid. 
 
 ## Contributing
