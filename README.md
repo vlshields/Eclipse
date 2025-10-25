@@ -32,5 +32,8 @@ Please see the existing issues for a template if you are unsure of how to struct
 - Audio assets were all created with the [ChucK programming language](https://chuck.stanford.edu/)
 - **The Players**: Thats you! Words can't describe how greatful I am if you have played this game, even if for just 5 minutes. You are the best <3
 
-Copyright (C) 2025 Vince Shields
-Licensed under GPL-3.0 - see LICENSE file for details. All source code and assets are publicly available at https://github.com/vlshields/Eclipse/releases/.
+*Copyright (C) 2025 Vince Shields*
+
+*Licensed under GPL-3.0 - see LICENSE file for details* 
+
+*All source code and assets are publicly available at https://github.com/vlshields/Eclipse/releases/*
