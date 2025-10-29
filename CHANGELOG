@@ -1,0 +1,92 @@
+eclipse-v0.2.9 (Current)
+------------------
+
+Patch Notes:
+
+1) New feature added where the AI player's pieces are also revealed on the board just like in multiplayer
+
+2) Updated infiltrator inception achievement verbiage for clarity
+
+eclipse-v0.2.8
+---------------------
+
+Patch Notes:
+
+ 1. Added AI Knowledge Storage (game.lua:172)
+    - game.aiKnownPieces = {} - Stores piece ranks by piece ID
+  2. AI Learns from Combat (game/combat.lua:60-71)
+    - When any battle occurs, the AI learns about player 1's pieces involved
+    - Knowledge is stored by piece ID for persistence
+  3. AI Uses Knowledge in Decisions (game/ai/darkness.lua:207-263)
+    - Known pieces: AI uses actual rank to make smart decisions
+    - Unknown pieces: AI uses heuristics based on position:
+        - Probes back rows (1-2) with low-rank pieces
+      - Tests middle rows (3-4) with mid-rank pieces
+      - Attacks front lines more aggressively
+      - Adds randomness to avoid predictable patterns
+  4. State Reset (game/state.lua:259)
+    - Knowledge clears when starting a new game
+
+eclipse-v0.1.7 
+-----------------------
+
+Patch Notes:
+
+1) Added a menu option for player to view persistent stats. Achievements are persistent and are saved to a text file via the Love2d virtual file system.
+
+2) New UI assets
+
+3) added license.txt
+
+eclipse-v0.1.6 
+-------------------
+
+Updated all three menu screens to use button images with hover effects matching the main
+menu style
+
+
+eclipse-v0.1.5
+------------------
+
+Patch Notes:
+
+1) Cleaned up achievement logic
+
+2) removed the scrollable container present during the board setup phase
+
+
+eclipse-v0.1.4
+------------------
+
+Patch notes:
+
+1) issue #3 patched victory condition logic
+
+2) Updated drawTextWithBackground function (game.lua:710) to accept optional RGB color parameters while maintaining white as the default
+
+
+Removed the MAX_BUFFER_SIZE constant and aggressive buffer overflow detection that was force-disconnecting clients
+
+Simplified the disconnect() method - removed the defensive pcall() wrappers and return values
+
+Reverted the update() method to simpler buffer handling without overflow checks and forced disconnections
+
+Simplified handleMessage() - removed verbose error callbacks that could interfere with normal operation
+
+Simplified send() method - removed complex error tracking and callback triggers that were too aggressive
+
+Removed gamesToCleanup and failedClients tracking variables
+
+Removed the game cleanup scheduling system that delayed cleanup by 5 seconds
+
+Removed the failed client auto-disconnect loop from update()
+
+Simplified handleMessage() - removed verbose error responses that could interfere with clients
+
+Simplified sendToClient() - back to basic send without failure tracking
+
+Simplified broadcastToGame() - removed success counting and warnings
+
+Removed the cleanupGame() method entirely
+
+Simplified leaveGame() - removed the explicit game code freeing
