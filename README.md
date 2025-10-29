@@ -7,48 +7,36 @@ Eclipse is a two-player strategy game where Light and Shadow armies battle on a 
 ### Windows
 1. Download the `.zip` file from the [releases page](https://github.com/vlshields/Eclipse/releases/)
 2. Extract the archive to your preferred location
-3. Double-click `eclipse.exe` to launch the game
+3. Double-click `eclipse*.exe` to launch the game
 
 ### macOS
 1. Download the `.zip` file from the [releases page](https://github.com/vlshields/Eclipse/releases/)
 2. Extract the archive
-3. Right-click `Eclipse.app` and select "Open"
-4. When macOS warns that Eclipse isn't from the App Store, click "Open" to run anyway
+3. Drag the extracted game to your applications folder
+4. Right-click `Eclipse.app` and select "Open"
+5. macOS will warn that Eclipse isn't from the App Store. To bypass this, go to settings -> privacy and security click "Open" to run anyway
    - You only need to do this the first time you launch the game
 
 ### Linux / Universal
-1. Download `eclipse.love` from the [releases page](https://github.com/vlshields/Eclipse/releases/)
-2. Install LÖVE 11.x from [love2d.org](https://love2d.org/) or your package manager
-3. Run with: `love eclipse.love`
+1. Download the .love file from the [releases page](https://github.com/vlshields/Eclipse/releases/)
+2. Run with: `love eclipse*.love`. On windows you may have to include the .exe extenion: `love.exe eclipse*.love`
 
 ## Contributing
 
-The best way to contribute is to download and test pre-release versions. While I've built binaries for multiple systems, thorough testing across all operating systems requires community help. Your feedback is invaluable!
-
-### Testing Focus Areas
-- Game mechanics and balance
-- Online multiplayer functionality
-- Platform-specific issues
-- Performance on different hardware
+The best way to contribute is to download and test pre-release versions. This game has become a bigger project than was first intended. It has become increasingly difficult to identify every bug or potential area of improvement. Please see the [issues](https://github.com/vlshields/Eclipse/issues) page for known issues and to file your bug report or feature request. Be sure to tag a feature request with "enhancement". Any open issue will be responded to and I will be very greatful to hear from you!
 
 
-## Online Multiplayer
+## About Online Multiplayer
 
-Eclipse features LAN-based multiplayer where one player hosts (always Player 1) and the other joins. The server code is integrated into the game and runs when you select "Host Game".
+The driving factor for creating this game was to recreate a board game-like experience. The idea is that having a "board game" that fits inside of your laptop is much more portable than carying around a big box. My goal was to get as close to that feeling of competitive friend/family time as possible. In spirit of that, Eclipse's Online Multiplayer mode does not connect to a seperate remote server that allows players to connect over WAN. It is also stripped of other teltale Online Multiplayer features, such as a chat (voice or text). Players are meant to connect over LAN (Local Area Network). In other words, you have to be on the same network as your openent. The player that choses to host the game will both run a local server and connect to it, with the player that choses "Join Game" will merely join that players game 
 
-### Remote Play Setup
-For playing over the internet, we recommend establishing a VPN tunnel for security:
-- [Tailscale](https://tailscale.com/) (easiest setup)
-- [WireGuard](https://www.wireguard.com/) (more control)
-- Avoid direct NAT port forwarding when possible
+**Important: Do not expose your port to the internet**
+
+While it is possible of course, it is absolutely not safe. If you must play someone remotely look into VPN services like [Tailscale](https://tailscale.com/) or [WireGuard](https://www.wireguard.com/) 
 
 ## Bug Reports & Feature Requests
 
-Please check [existing issues](https://github.com/vlshields/Eclipse/issues) before submitting new ones. When reporting bugs, include:
-- Your operating system and version
-- Steps to reproduce the issue
-- Expected vs. actual behavior
-- Screenshots or error messages if applicable
+Please check [existing issues](https://github.com/vlshields/Eclipse/issues) before submitting new ones. When reporting bugs, include your operating system and Eclipse version as well as Screenshots or error messages if applicable.
 
 The issues tab also shows our development roadmap and current priorities.
 
