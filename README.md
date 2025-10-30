@@ -1,6 +1,12 @@
-# WELCOME ![eclipse logo](logo_with_title.png)
+# Eclipse - Command Your Army in a Battle of Light and Darkness ![eclipse logo](logo_with_title.png)
+### A game of Imperfect Information
 
-Eclipse is a two-player strategy game where Light and Shadow armies battle on a 10x10 grid.
+*Deploy hidden-rank warriors, master tactical deception, and capture the enemy Crystal in this turn-based strategy game. 
+Command an army of 40 units in cosmic warfare against the Darkness or challenge friends in LAN multiplayer.
+
+The battlefield lies shrouded in mystery. Every piece conceals its true power. One wrong move could cost you everything.
+
+Light vs Shadow - which side will prevail?*
 
 ## Installation
 
