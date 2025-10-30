@@ -1,4 +1,16 @@
-eclipse-v0.2.9 (Current)
+eclipse-v0.2.10 (Current)
+--------------------------
+
+Patch Notes:
+
+1) New Feature: In online multiplayer, players can no longer see where the other player is placing their pieces during board setup. 
+This eliminates any inquiries of flag placement (players tend to place their flag first). A counter that displays how many pieces have been placed
+was added so that players know the game isnt idling/frozen.
+
+2) UI asset updates.
+
+
+eclipse-v0.2.9 
 ------------------
 
 Patch Notes:
