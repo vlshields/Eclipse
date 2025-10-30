@@ -11,10 +11,9 @@ Eclipse is a two-player strategy game where Light and Shadow armies battle on a 
 
 ### macOS
 1. Download the `.zip` file from the [releases page](https://github.com/vlshields/Eclipse/releases/)
-2. Extract the archive
-3. Drag the extracted game to your applications folder
+2. Extract the archive to your applications folder
 4. Right-click `Eclipse.app` and select "Open"
-5. macOS will warn that Eclipse isn't from the App Store. To bypass this, go to settings -> privacy and security click "Open" to run anyway
+5. A warning will appear stating that Eclipse isn't from the App Store. To bypass this, go to settings -> privacy and security click "Open" to run anyway
    - You only need to do this the first time you launch the game
 
 ### Linux / Universal
@@ -23,7 +22,7 @@ Eclipse is a two-player strategy game where Light and Shadow armies battle on a 
 
 ## Contributing
 
-The best way to contribute is to download and test pre-release versions. This game has become a bigger project than was first intended. It has become increasingly difficult to identify every bug or potential area of improvement. Please see the [issues](https://github.com/vlshields/Eclipse/issues) page for known issues and to file your bug report or feature request. Be sure to tag a feature request with "enhancement". Any open issue will be responded to and I will be very greatful to hear from you!
+The best way to contribute is to play the game and provide feedback! This game has become a bigger project than was first intended. It has become increasingly difficult to identify every bug or potential area of improvement. Please see the [issues](https://github.com/vlshields/Eclipse/issues) page for known issues and to file your bug report or feature request. Be sure to tag a feature request with "enhancement". Any open issue will be responded to and every feature request/suggestion will be consitered!
 
 
 ## About Online Multiplayer
@@ -55,4 +54,4 @@ Platform packaging is currently prioritized for Windows and macOS based on user 
 
 *Copyright (C) 2025 Vince Shields*  
 *Licensed under GPL-3.0 - see [LICENSE](LICENSE) file for details*  
-*All source code and assets available at https://github.com/vlshields/Eclipse/releases/*
+*[Source](https://github.com/vlshields/Eclipse/releases/)*
