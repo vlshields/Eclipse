@@ -1,4 +1,16 @@
-eclipse-v0.2.10 (Current)
+eclipse-v0.2.11 (Current)
+--------------------------
+
+Patch Notes:
+
+1) Music and Volume settings are now saved for when a player loads the game again.
+
+2) A player's acquired achievments are now rendered in green text in the stats page.
+
+3) Added a new game over tune.
+
+
+eclipse-v0.2.10 
 --------------------------
 
 Patch Notes:
