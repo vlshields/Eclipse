@@ -1,4 +1,15 @@
-eclipse-v0.2.11 (Current)
+eclipse-v0.2.13 (Current)
+--------------------------
+
+Patch Notes:
+
+1) Option added in online multiplayer mode for players to "rematch" without exiting the game via a "Play Again?" button that appears on the victory screen
+
+2) The option for a player to forfeit the match has been added via a buttion in the lower left hand corner
+
+3) Alternate win condition confirmed to work
+
+eclipse-v0.2.11 
 --------------------------
 
 Patch Notes:
