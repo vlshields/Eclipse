@@ -33,6 +33,8 @@ Light vs Shadow - which side will prevail?*
 
 The best way to contribute is to play the game and provide feedback! This game has become a bigger project than was first intended. It has become increasingly difficult to identify every bug or potential area of improvement. Please see the [issues](https://github.com/vlshields/Eclipse/issues) page for known issues and to file your bug report or feature request. Be sure to tag a feature request with "enhancement". Any open issue will be responded to and every feature request/suggestion will be consitered!
 
+#### Help Wanted
+Please see [existing issues](https://github.com/vlshields/Eclipse/issues) tagged with "Help Wanted" for items in particular need of player feedback.
 
 ## About Online Multiplayer
 
@@ -56,7 +58,7 @@ Platform packaging is currently prioritized for Windows and macOS based on user 
 - **Engine:** Built with [LÖVE](https://love2d.org/)
 - **Graphics:** Created using Canva and [Aseprite](https://www.aseprite.org/), with grids rendered via LÖVE's graphics API
 - **Audio:** Composed using the [ChucK programming language](https://chuck.stanford.edu/)
-- **The Players:** Thank you to everyone who has tested Eclipse, even for just 5 minutes. You make this project possible! ❤️
+- **The Players:** Thank you to everyone who has tested Eclipse, even if it was for just 5 minutes. You make this project possible! ❤️
 
 ---
 
