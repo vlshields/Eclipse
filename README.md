@@ -52,7 +52,7 @@ Please check [existing issues](https://github.com/vlshields/Eclipse/issues) befo
 ## Development Updates
 
 Platform packaging is currently prioritized for Windows and macOS based on user feedback. Linux users should use the universal `.love` file for now. Release timing may vary between platforms as we respond to testing needs. If anyone
-has the time to help with packaging, particularly for their favorite package management system (brew, apt(.deb), AUR, etc) any help would be greatly appreciated!
+has the time to help with packaging, particularly for their favorite package management system (brew, apt(.deb), AUR, etc) any help would be greatly appreciated! Please see ./build/BUILD.md for details.
 
 ## Acknowledgements
 
