@@ -1,0 +1,19 @@
+## Create a .love-file
+Please note that some operating systems use case-sensitive paths. To avoid unnecessary hassle make sure that the path specifications you use in code matches that of your folders and files.
+
+To create a .love-file you have to create a zip file of the whole game directory. Make sure that your main.lua is in the root of the archive, e.g. if you have
+
+   <somedir>\SuperGame\gfx\character.png
+   <somedir>\SuperGame\main.lua
+   <somedir>\SuperGame\conf.lua
+then you must ensure the zip file contains
+
+   gfx\character.png
+   main.lua
+   conf.lua
+and not the directory SuperGame\.
+
+Once you have your zip file you simply rename the ending from .zip to .love and you are done!
+
+Note: If you're using a case-insensitive file system (e.g. Windows and macOS), try running your game using the generated .love file. This will reveal any case sensitivity problems that other users may run into when trying to run your game. A common pitfall is to have filename with different capitalization than it's in the game code because once the game is zipped, it becomes case-sensitive.
+
