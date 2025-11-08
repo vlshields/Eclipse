@@ -1,4 +1,18 @@
-eclipse-v0.2.12 (Current)
+
+eclipse-v0.2.13 (Current)
+--------------------------
+
+Patch Notes:
+
+- Added a turn counter
+ - Single Player: Counts the number of turns the player (Player 1/Light) has taken.
+ - Multiplayer (Online mode): Counts the number of turns from the perspective of each player separately
+
+Fixed play again freeze bug in online multiplayer
+
+- Removed the surrender button from single player mode
+
+eclipse-v0.2.12 
 --------------------------
 
 Patch Notes:
