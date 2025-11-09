@@ -1,5 +1,20 @@
+eclipse-v0.2.14 (Current)
+--------------------------
 
-eclipse-v0.2.13 (Current)
+Patch Notes:
+
+1) Fixed network freeze bug caused by message fragmentation in server thread:
+
+ - The server was using line-mode receive() without buffering, causing partial messages to be
+ lost when TCP packets were fragmented. This led to desynchronization between clients and
+ the server, resulting in gameplay freezes.
+  
+ - Added proper message buffering to the server thread matching the client's implementation, ensuring all fragmented messages are correctly
+ reassembled.
+
+2) Added data validation to the load save file function(s)
+
+eclipse-v0.2.13 
 --------------------------
 
 Patch Notes:
