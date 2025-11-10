@@ -1,4 +1,21 @@
-eclipse-v0.2.14 (Current)
+eclipse-v0.2.15 (Current)
+--------------------------
+
+Patch Notes:
+
+Fix network freeze bug caused by receive("*a") overwhelming server thread:
+
+  - Changed network receive calls from reading all available data at once to reading in 4KB 
+  chunks, which prevents the server thread from locking up during high network traffic. 
+  
+  - Added buffer size limits and improved error handling to ensure stable performance during 
+  gameplay. 
+  
+  - This resolves the issue where the game would freeze during online multiplayer due
+   to inefficient message processing.
+
+
+eclipse-v0.2.14 
 --------------------------
 
 Patch Notes:
