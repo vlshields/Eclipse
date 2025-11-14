@@ -35,6 +35,7 @@ The best way to contribute is to play the game and provide feedback! This game h
 
 #### Help Wanted
 Please see [existing issues](https://github.com/vlshields/Eclipse/issues) tagged with "Help Wanted" for items in particular need of player feedback.
+Also, please feel free to add sections (strategies, troubleshooting, etc) to the [new wiki!](https://github.com/vlshields/Eclipse/wiki)
 
 ## About Online Multiplayer
 
