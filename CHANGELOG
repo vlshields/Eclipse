@@ -1,4 +1,21 @@
-eclipse-v0.2.15 (Current)
+eclipse-v0.2.17 (Current)
+--------------------------
+
+Patch Notes:
+
+Replaced play again button with a png asset:
+
+    - Now uses game.buttonPlayAgain instead of game.buttonJoinGameSmall
+    - Removed the manual text drawing 
+
+eclipse-v0.2.16 
+--------------------------
+
+Patch Notes:
+
+Barely any change. Updated the verbiage in "How to Play"
+
+eclipse-v0.2.15 
 --------------------------
 
 Patch Notes:
