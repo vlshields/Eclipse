@@ -52,8 +52,7 @@ Please check [existing issues](https://github.com/vlshields/Eclipse/issues) befo
 
 ## Development Updates
 
-Platform packaging is currently prioritized for Windows and macOS based on user feedback. Linux users should use the universal `.love` file for now. Release timing may vary between platforms as we respond to testing needs. If anyone
-has the time to help with packaging, particularly for their favorite package management system (brew, apt(.deb), AUR, etc) any help would be greatly appreciated! 
+The official Beta Release is out now! That means that the game seems stable enough to be distributed to the wider public and development versions will be different than the stable releases. That also means that there won't be any game changing features added; the priority will be fixing bugs and responding to user feedback. Thats not to say that players are no longer encouraged to request new features - there will still be updates. The more feedback there is the better! Thank you to all the people who have helped test the game thus far, it is a small group and you all mean so much to me. 
 
 ## Acknowledgements
 
