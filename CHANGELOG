@@ -1,4 +1,14 @@
-eclipse-v0.2.19 (Current)
+eclipse-v0.2.20 (Current Dev)
+--------------------------
+
+Patch Notes:
+
+- Added F key to exit fullscreen and Shift+F to enter fullscreen
+- Fixed hover detection and tooltips in fullscreen mode, shorten piece descriptions
+- Implemented the push library to allow the game to scale to fullscreen!
+
+
+eclipse-v0.2.19 (Current Stable)
 --------------------------
 
 Patch Notes:
