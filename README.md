@@ -2,8 +2,6 @@
 ![eclipse logo](logo_with_title.png)
 # Eclipse - Command Your Army in a Battle of Light and Darkness
 
-<iframe frameborder="0" src="https://itch.io/embed/4066159" width="552" height="167"><a href="https://pots-and-pans.itch.io/eclipse">Eclipse by VinnyPots</a></iframe>
-
 
 Deploy hidden-rank warriors, master tactical deception, and capture the enemy Crystal in this turn-based strategy game.
 Command an army of 40 units in cosmic warfare against the Darkness or challenge friends in LAN multiplayer.
