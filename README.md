@@ -61,7 +61,7 @@ The official Beta Release is out now! That means that the game seems stable enou
 - **Engine:** Built with [LÖVE](https://love2d.org/)
 - **Graphics:** Created using Canva and [Aseprite](https://www.aseprite.org/), with grids rendered via LÖVE's graphics API
 - **Audio:** Composed using the [ChucK programming language](https://chuck.stanford.edu/)
-- **The Players:** Thank you to everyone who has tested Eclipse, even if it was for just 5 minutes. You make this project possible! ❤️
+- **The Players:** Thank you to everyone who has tested Eclipse, even if it was for just 5 minutes. You have made this project possible! ❤️
 
 ---
 
