@@ -54,7 +54,7 @@ Please check [existing issues](https://github.com/vlshields/Eclipse/issues) befo
 
 ## Development Updates
 
-The first major patch of the Beta Release is not officially available. This was only possible thanks to the incredible feedback on the last release. The Love2d community is extremely supported; thank you all! 
+The first major patch of the Beta Release is now officially available. This was only possible thanks to the incredible feedback on the last release. The Love2d community is extremely supported; thank you all! 
 The most notable change in the patch is full screen scaling. Please see the [patch notes](https://github.com/vlshields/Eclipse/blob/main/CHANGELOG) for more details on the the changes.
 
 
