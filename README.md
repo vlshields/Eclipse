@@ -54,6 +54,10 @@ Please check [existing issues](https://github.com/vlshields/Eclipse/issues) befo
 
 ## Development Updates
 
+The first major patch of the Beta Release is not officially available. This was only possible thanks to the incredible feedback on the last release. The Love2d community is extremely supported; thank you all! 
+The most notable change in the patch is full screen scaling. Please see the [patch notes](https://github.com/vlshields/Eclipse/blob/main/CHANGELOG) for more details on the the changes.
+
+
 The official Beta Release is out now! That means that the game seems stable enough to be distributed to the wider public and development versions will be different than the stable releases. That also means that there won't be any game changing features added; the priority will be fixing bugs and responding to user feedback. Thats not to say that players are no longer encouraged to request new features - there will still be updates. The more feedback there is the better! Thank you to all the people who have helped test the game thus far, it is a small group and you all mean so much to me. 
 
 ## Acknowledgements
