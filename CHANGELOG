@@ -1,4 +1,17 @@
-eclipse-v0.2.20 (Current Dev)
+eclipse-v0.2.21 (Current Stable)
+--------------------------
+
+Patch Notes:
+
+-Updated how to play screen with version number and notes about unique win conditions.
+-Fixed game title alignment issue on the main menu
+
+- Added F key to exit fullscreen and Shift+F to enter fullscreen
+- Fixed hover detection and tooltips in fullscreen mode, shorten piece descriptions
+- Implemented the push library to allow the game to scale to fullscreen!
+
+
+eclipse-v0.2.20 
 --------------------------
 
 Patch Notes:
@@ -8,7 +21,7 @@ Patch Notes:
 - Implemented the push library to allow the game to scale to fullscreen!
 
 
-eclipse-v0.2.19 (Current Stable)
+eclipse-v0.2.19 
 --------------------------
 
 Patch Notes:
