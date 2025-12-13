@@ -1,4 +1,15 @@
-eclipse-v0.2.22 (Current)
+eclipse-v0.2.23 (Current)
+--------------------------
+
+Patch Notes:
+
+Fixed parallax background looping to be seamless
+Removed floating effect from menu title to fix aliasing
+Update main menu layout and styling
+
+
+
+eclipse-v0.2.22 
 --------------------------
 
 Patch Notes:
