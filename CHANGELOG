@@ -1,4 +1,14 @@
-eclipse-v0.2.24 (Current)
+eclipse-v0.2.25 (Current)
+--------------------------
+Patch Notes:
+
+- Updated the player piece assets for more character.
+- Added hover dialogue text for main menu buttons
+- Added quit confirmation dialog when exiting the game to prevent accidentally quitting and losing progress
+- Added visual highlighting for valid placement spots during board setup. 
+  This will be especially helpful for multiplayer mode, where players sometimes got confused about which side of the board to place their pieces
+
+eclipse-v0.2.24 
 --------------------------
 Patch Notes:
 
