@@ -9,7 +9,7 @@ named after the packaging method or distribution you are packaging for. For exam
 As long as it's clear, the actual name of the folder doesn't matter too much.
 
 ### Packaging 
-Please use eclipse_logo.png as the icon. Once you have comleted your build, please place it in your build folder along with the original .love file and open a [pull request](https://github.com/vlshields/Eclipse/pulls). I will
+Please use eclipse_logo.png as the icon. Once you have completed your build, please place it in your build folder along with the original .love file and open a [pull request](https://github.com/vlshields/Eclipse/pulls). I will
 review the PR within a few days and likely merge it.
 
 
