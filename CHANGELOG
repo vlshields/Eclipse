@@ -1,4 +1,12 @@
-eclipse-v0.2.25 (Current)
+eclipse-v0.2.26 and eclipse-v0.2.27 (Current)
+--------------------------
+Patch Notes:
+
+- The player stats page now also tracks and displays the largest number of pieces captured by Darkness (the computer player).
+- Pieces now have an idle animation when they are selected by the player
+
+
+eclipse-v0.2.25 
 --------------------------
 Patch Notes:
 
