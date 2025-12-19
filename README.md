@@ -39,6 +39,9 @@ The best way to contribute is to play the game and provide feedback! This game h
 Please see [existing issues](https://github.com/vlshields/Eclipse/issues) tagged with "Help Wanted" for items in particular need of player feedback.
 Also, please feel free to add sections (strategies, troubleshooting, etc) to the [new wiki!](https://github.com/vlshields/Eclipse/wiki)
 
+#### Packaging
+If you are interested in packaging this game, please see these [general guidlines](https://github.com/vlshields/Eclipse/blob/main/PACKAGING_GUIDLINES.md).
+
 ## About Online Multiplayer
 
 The driving factor for creating this game was to recreate a board game-like experience. The idea is that having a "board game" that fits inside of your laptop is much more portable than carying around a big box. My goal was to get as close to that feeling of competitive friend/family time as possible. In spirit of that, Eclipse's Online Multiplayer mode does not connect to a seperate remote server that allows players to connect over WAN. It is also stripped of other teltale Online Multiplayer features, such as a chat (voice or text). Players are meant to connect over LAN (Local Area Network). In other words, you have to be on the same network as your openent. The player that choses to host the game will both run a local server and connect to it. The host can then share the provided game code with a friend for battle!
