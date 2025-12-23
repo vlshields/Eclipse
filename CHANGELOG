@@ -1,4 +1,12 @@
-eclipse-v0.3.27 (Current)
+eclipse-v0.3.28 (Current)
+--------------------------
+Patch Notes:
+
+- Replaced static PNG button assets with programmatically generated buttons using Love2D canvases for UX consistency.
+- Added hover text feature to online multiplayer menu
+- Fixed text formatting on How to Play and Credits pages
+
+eclipse-v0.3.27 
 --------------------------
 Patch Notes:
 
