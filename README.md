@@ -11,7 +11,7 @@ Command an army of 40 units in cosmic warfare against the Darkness or challenge 
 
 *The battlefield lies shrouded in mystery. Every piece conceals its true power. One wrong move could cost you everything.*
 
-Light vs Shadow - which side will prevail?*
+Light vs Shadow - which side will prevail?
 
 ## Installation
 
