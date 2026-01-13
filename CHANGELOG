@@ -1,4 +1,18 @@
-eclipse-v0.3.28 (Current)
+eclipse-v0.4.31 (Current)
+--------------------------
+Patch Notes:
+
+- Add hasValidMoves() function that checks actual move availability
+- Update combat.lua to use hasValidMoves() and detect draws after battles
+- Update computer player logic to handle draw detection
+- Add turn-start validation in game.lua update loop
+- Create dedicated draw screen UI showing "Draw!" with explanation
+- Update network code to sync draw state in multiplayer
+- Add isDraw flag and reset it in state reset functions
+- Void blocks are now transparent for visual aesthetic.
+
+
+eclipse-v0.3.28 
 --------------------------
 Patch Notes:
 
