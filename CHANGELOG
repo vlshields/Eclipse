@@ -1,3 +1,8 @@
+eclipse-v1.4.32 (Official Release)
+----------------------------------------
+- certain debugging tools, such as the ability to press 't' to randomly place your pieces,
+have been remoived from the productions branch
+
 eclipse-v1.4.31 (Official Release)
 -----------------------------------
 - Smoother animations and visual effects
