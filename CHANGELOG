@@ -1,3 +1,10 @@
+eclipse-v1.5.32 (Official Release)
+----------------------------------------
+
+- Fixed bug where UI buttons did not scale on MacOS retina displays.
+- Decreased the size of the mouse over highlighting effect
+- Fixed custom icon not displaying on windows build
+
 eclipse-v1.4.32 (Official Release)
 ----------------------------------------
 - certain debugging tools, such as the ability to press 't' to randomly place your pieces,
