@@ -1,20 +1,26 @@
-eclipse-v1.5.32 (Official Release)
+-------------Official Release-------------------------
+
+
+eclipse-v1.5.32 
 ----------------------------------------
 
 - Fixed bug where UI buttons did not scale on MacOS retina displays.
 - Decreased the size of the mouse over highlighting effect
 - Fixed custom icon not displaying on windows build
 
-eclipse-v1.4.32 (Official Release)
+eclipse-v1.4.32 
 ----------------------------------------
 - certain debugging tools, such as the ability to press 't' to randomly place your pieces,
 have been remoived from the productions branch
 
-eclipse-v1.4.31 (Official Release)
+eclipse-v1.4.31 
 -----------------------------------
 - Smoother animations and visual effects
 - improved online multiplayer latency
 - other general bug fixes
+
+
+-------------Pre Release-------------------------
 
 eclipse-v0.4.31 
 --------------------------
